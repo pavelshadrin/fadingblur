@@ -63,7 +63,7 @@ class FadingEdgesView: UIView {
         super.layoutSubviews()
         
         gradientMask.frame = contentView.bounds
-        contentView.layer.mask = gradientMask//?
+        contentView.layer.mask = gradientMask
         
         bringSubviewToFront(contentView)
     }
